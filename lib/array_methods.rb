@@ -18,4 +18,13 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  counter = 0
+  min = 1000000
+  while counter < array.length()
+   if min >= array[counter]
+    min = array[counter]
+  end
+  counter += 1
+end
+  return min
 end
